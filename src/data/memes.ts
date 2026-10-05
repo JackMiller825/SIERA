@@ -1,0 +1,88 @@
+import { assets } from "../config/assets.ts"
+
+export const memes = [
+  {
+    id: "01",
+    title: "The Road Out",
+    image: assets.memes["01"],
+    alt: "SIERA universe poster of the crowned mascot traveling a glowing road between floating cities.",
+    frame: "aspect-[3/4] object-[center_30%]",
+  },
+  {
+    id: "02",
+    title: "Lab Hours",
+    image: assets.memes["02"],
+    alt: "SIERA universe poster with numbered stages and the mascot inside a bright city.",
+    frame: "aspect-square object-center",
+  },
+  {
+    id: "03",
+    title: "Golden Hour",
+    image: assets.memes["03"],
+    alt: "Sunset poster of the SIERA road winding toward a crystal city.",
+    frame: "aspect-[4/5] object-[70%_center]",
+  },
+  {
+    id: "04",
+    title: "Night Shift",
+    image: assets.memes["04"],
+    alt: "Night poster of SIERA characters crossing a luminous bridge.",
+    frame: "aspect-[3/4] object-[20%_40%]",
+  },
+  {
+    id: "05",
+    title: "Still Curious",
+    image: assets.memes["05"],
+    alt: "SIERA poster of a human and small mascot looking toward floating islands.",
+    frame: "aspect-[5/4] object-[15%_center]",
+  },
+  {
+    id: "06",
+    title: "Chapter One",
+    image: assets.memes["06"],
+    alt: "Wide SIERA city poster with the mascot leading the way along a gold path.",
+    frame: "aspect-square object-[80%_40%]",
+  },
+  {
+    id: "07",
+    title: "Visor On",
+    image: assets.memes["07"],
+    alt: "SIERA poster centered on the crowned mascot above a sky of islands.",
+    frame: "aspect-[4/5] object-[75%_20%]",
+  },
+  {
+    id: "08",
+    title: "After AI",
+    image: assets.memes["08"],
+    alt: "SIERA poster of the intelligence road at dusk, with the mascot on the final island.",
+    frame: "aspect-[3/4] object-center",
+  },
+  {
+    id: "09",
+    title: "Bring Friends",
+    image: assets.memes["09"],
+    alt: "SIERA poster of the mascot with a crowd and five glowing story cards.",
+    frame: "aspect-[5/4] object-[center_40%]",
+  },
+  {
+    id: "10",
+    title: "Name Drop",
+    image: assets.memes["10"],
+    alt: "Wide banner of the SIERA mascot beside the words Super Intelligence Era.",
+    frame: "aspect-[16/8] object-center",
+  },
+  {
+    id: "11",
+    title: "Official Seal",
+    image: assets.memes["11"],
+    alt: "Circular SIERA emblem with the crowned mascot and the ticker $SIERA.",
+    frame: "aspect-square object-center",
+  },
+  {
+    id: "12",
+    title: "Tuesday",
+    image: assets.memes["12"],
+    alt: "SIERA mascot in a blue visor pointing forward, surrounded by era panels.",
+    frame: "aspect-[3/4] object-[18%_center]",
+  },
+] as const
