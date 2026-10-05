@@ -255,39 +255,6 @@ body {
   box-shadow: 0 0 16px rgba(70, 217, 255, 0.85);
 }
 
-.masonry {
-  columns: 2;
-  column-gap: 0.8rem;
-}
-
-@media (min-width: 768px) {
-  .masonry {
-    columns: 3;
-  }
-}
-
-@media (min-width: 1100px) {
-  .masonry {
-    columns: 4;
-  }
-}
-
-.masonry article {
-  break-inside: avoid;
-  margin-bottom: 0.8rem;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .meme-actions {
-    opacity: 0;
-  }
-
-  .group:hover .meme-actions,
-  .group:focus-within .meme-actions {
-    opacity: 1;
-  }
-}
-
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;

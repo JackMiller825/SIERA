@@ -45,9 +45,9 @@ export function Memes() {
         <SectionHeading id="memes-title" eyebrow="LOW SIGNAL, HIGH CONFIDENCE" title="MEMES">
           <p>Intelligence evolved. The memes somehow got worse.</p>
         </SectionHeading>
-        <div className="masonry mt-8">
+        <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-4">
           {memes.map((meme, index) => (
-            <article key={meme.id} className="group relative overflow-hidden rounded-2xl border border-cyan/25 bg-deep transition duration-300 hover:border-gold">
+            <article key={meme.id} className="group overflow-hidden rounded-2xl border border-cyan/25 bg-deep transition duration-300 hover:border-gold">
               <button type="button" className="block w-full" onClick={() => setOpen(index)} aria-label={`Open meme, ${meme.title}`}>
                 <div className="relative aspect-square overflow-hidden bg-navy">
                   <SmartImage
@@ -56,30 +56,32 @@ export function Memes() {
                     fill
                     fit="contain"
                     maxWidth={960}
-                    sizes="(min-width: 1100px) 24vw, 46vw"
+                    sizes="(min-width: 1280px) 22vw, (min-width: 768px) 30vw, 46vw"
                     className="transition duration-300 group-hover:scale-[1.03]"
                   />
                 </div>
               </button>
-              <div className="meme-actions absolute top-3 right-3 flex gap-2 transition">
-                <button
-                  type="button"
-                  className="grid h-11 w-11 place-items-center rounded-full border border-cyan/40 bg-navy/80 text-ice hover:border-gold hover:text-gold-bright"
-                  aria-label={`Download ${meme.title}`}
-                  onClick={() => download(meme.image.src, meme.id)}
-                >
-                  <DownloadIcon className="h-4 w-4" />
-                </button>
-                <button
-                  type="button"
-                  className="grid h-11 w-11 place-items-center rounded-full border border-cyan/40 bg-navy/80 text-ice hover:border-gold hover:text-gold-bright"
-                  aria-label={`Share ${meme.title}`}
-                  onClick={() => share(meme.title)}
-                >
-                  <ShareIcon className="h-4 w-4" />
-                </button>
+              <div className="flex items-center gap-2 px-2.5 py-2.5">
+                <p className="min-w-0 flex-1 font-display text-[11px] leading-tight tracking-[0.08em] text-ice/80">{meme.title}</p>
+                <div className="flex shrink-0 gap-1.5">
+                  <button
+                    type="button"
+                    className="grid h-10 w-10 place-items-center rounded-full border border-cyan/40 bg-navy text-ice hover:border-gold hover:text-gold-bright"
+                    aria-label={`Download ${meme.title}`}
+                    onClick={() => download(meme.image.src, meme.id)}
+                  >
+                    <DownloadIcon className="h-4 w-4" />
+                  </button>
+                  <button
+                    type="button"
+                    className="grid h-10 w-10 place-items-center rounded-full border border-cyan/40 bg-navy text-ice hover:border-gold hover:text-gold-bright"
+                    aria-label={`Share ${meme.title}`}
+                    onClick={() => share(meme.title)}
+                  >
+                    <ShareIcon className="h-4 w-4" />
+                  </button>
+                </div>
               </div>
-              <p className="px-3 py-3 font-display text-[11px] tracking-[0.14em] text-ice/80">{meme.title}</p>
             </article>
           ))}
         </div>
