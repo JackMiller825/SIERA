@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.siera.example/sitemap.xml
+Sitemap: https://siera.world/sitemap.xml

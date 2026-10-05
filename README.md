@@ -24,7 +24,7 @@ npm run preview
 
 All live values live in `src/config/project.ts`. Leave a field empty until it is real. The site renders empty token fields as **COMING SOON** and disables Uniswap, chart, and contract actions. The copy button appears only after `contractAddress` is a real `0x` address.
 
-Replace `siteUrl` before launch. It is a canonical placeholder used in metadata, `robots.txt`, and `sitemap.xml`.
+The public site is [https://siera.world](https://siera.world). `siteUrl` in `src/config/project.ts` is that canonical origin. A push to `main` builds the site and publishes it with GitHub Pages.
 
 Social buttons use `twitterUrl` and `telegramUrl`.
 

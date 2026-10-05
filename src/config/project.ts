@@ -2,7 +2,7 @@
  * Central project configuration.
  * Unknown token fields stay empty. The site shows them as "COMING SOON"
  * and keeps swap, chart, and contract actions disabled until real values exist.
- * Replace siteUrl before launch. It is only a canonical placeholder.
+ * siteUrl is the public canonical origin.
  */
 export const project = {
   name: "Super Intelligence Era",
@@ -20,7 +20,7 @@ export const project = {
   dexscreenerUrl: "",
   twitterUrl: "",
   telegramUrl: "",
-  siteUrl: "https://www.siera.example",
+  siteUrl: "https://siera.world",
   ethereumUrl: "https://ethereum.org",
   uniswapHomeUrl: "https://uniswap.org",
   etherscanHomeUrl: "https://etherscan.io",
