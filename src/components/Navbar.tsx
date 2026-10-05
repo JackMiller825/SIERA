@@ -1,5 +1,6 @@
 import { AnimatePresence, motion, useScroll, useTransform } from "framer-motion"
 import { useEffect, useState } from "react"
+import { assets } from "../config/assets.ts"
 import { navigation } from "../data/navigation.ts"
 import { useActiveSection } from "../hooks/useActiveSection.ts"
 import { useLockBody } from "../hooks/useLockBody.ts"
@@ -7,7 +8,7 @@ import { cn } from "../utils/cn.ts"
 import { buyUrl } from "../utils/token.ts"
 import { Button } from "./Button.tsx"
 import { CloseIcon } from "./Icons.tsx"
-import { Crystal } from "./Crystal.tsx"
+import { SmartImage } from "./SmartImage.tsx"
 import { SocialLinks } from "./SocialLinks.tsx"
 
 export function Navbar() {
@@ -40,7 +41,9 @@ export function Navbar() {
     <header className={cn("fixed inset-x-0 top-0 z-40 transition duration-300", scrolled || open ? "nav-glass" : "bg-transparent")}>
       <div className="flex h-16 items-center gap-3 px-4 md:h-[4.5rem] md:px-6">
         <a href="#home" className="flex items-center gap-2" aria-label="Super Intelligence Era home">
-          <Crystal className="h-8 w-8" />
+          <span className="block h-9 w-9 shrink-0">
+            <SmartImage image={assets.coin} alt="" fit="contain" maxWidth={256} sizes="36px" className="h-9 w-9" />
+          </span>
           <span className="leading-none">
             <span className="block font-display text-sm tracking-[0.18em] text-ice">SIERA</span>
             <span className="mt-1 block text-[10px] tracking-[0.22em] text-gold">$SIERA</span>

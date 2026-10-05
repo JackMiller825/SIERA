@@ -19,7 +19,7 @@ export function Stickers() {
               className="sticker-float"
               style={{ animationDelay: `${index * 0.28}s`, ["--rot" as string]: `${sticker.rotate}deg` }}
             >
-              <div className="transition duration-300 hover:scale-[1.08]">
+              <div className="grid aspect-square place-items-center p-1 transition duration-300 hover:scale-[1.08]">
                 <SmartImage image={sticker.image} alt={sticker.alt} fit="contain" maxWidth={384} sizes="(min-width: 1024px) 16vw, 30vw" />
               </div>
             </div>

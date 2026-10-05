@@ -1,7 +1,8 @@
+import { assets } from "../config/assets.ts"
 import { project } from "../config/project.ts"
 import { footerNavigation } from "../data/navigation.ts"
 import { isLiveUrl } from "../utils/token.ts"
-import { Crystal } from "./Crystal.tsx"
+import { SmartImage } from "./SmartImage.tsx"
 
 export function Footer() {
   const links = [
@@ -18,7 +19,9 @@ export function Footer() {
       <div className="mx-auto grid w-full max-w-[1120px] gap-10 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <a href="#home" className="inline-flex items-center gap-2" aria-label="Back to top">
-            <Crystal className="h-8 w-8" />
+            <span className="block h-9 w-9 shrink-0">
+              <SmartImage image={assets.coin} alt="" fit="contain" maxWidth={256} sizes="36px" className="h-9 w-9" />
+            </span>
             <span>
               <span className="block font-display text-sm tracking-[0.16em]">SUPER INTELLIGENCE ERA</span>
               <span className="mt-1 block text-xs tracking-[0.2em] text-gold">{project.ticker}</span>

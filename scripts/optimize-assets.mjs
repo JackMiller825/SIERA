@@ -231,8 +231,8 @@ async function ensureGeneratedMasters() {
 
 const jobs = [
   ["siera-hero-space-bg", "jpg", [640, 1280, 1920]],
-  ["siera-hero-character-transparent", "png", [640, 1200]],
-  ["siera-footer-character", "png", [480, 960]],
+  ["siera-hero-character-transparent", "png", [320, 480]],
+  ["siera-footer-character", "png", [320, 448]],
   ["siera-neural-horizon-top", "png", [960, 1600]],
   ["siera-neural-horizon-bottom", "png", [960, 1600]],
   ["siera-origin-story", "jpg", [640, 1280, 1600]],
@@ -247,6 +247,7 @@ const jobs = [
   ["siera-media-updates", "jpg", [640, 1200]],
   ["siera-community", "jpg", [640, 1280, 1600]],
   ["siera-favicon", "png", []],
+  ["siera-coin", "png", [128, 256, 512]],
   ["siera-og-image-1200x630", "png", []],
 ]
 

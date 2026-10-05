@@ -12,20 +12,20 @@ export const images: Record<string, ImageAsset> = {
   },
   "siera-hero-character-transparent": {
     "src": "/assets/siera-hero-character-transparent.png",
-    "width": 1200,
-    "height": 1117,
+    "width": 480,
+    "height": 448,
     "widths": [
-      640,
-      1200
+      320,
+      480
     ]
   },
   "siera-footer-character": {
     "src": "/assets/siera-footer-character.png",
-    "width": 960,
-    "height": 894,
+    "width": 448,
+    "height": 428,
     "widths": [
-      480,
-      960
+      320,
+      448
     ]
   },
   "siera-neural-horizon-top": {
@@ -153,9 +153,18 @@ export const images: Record<string, ImageAsset> = {
   },
   "siera-favicon": {
     "src": "/assets/siera-favicon.png",
-    "width": 256,
-    "height": 256,
+    "width": 512,
+    "height": 512,
     "widths": []
+  },
+  "siera-coin": {
+    "src": "/assets/siera-coin.png",
+    "width": 487,
+    "height": 482,
+    "widths": [
+      128,
+      256
+    ]
   },
   "siera-og-image-1200x630": {
     "src": "/assets/siera-og-image-1200x630.png",
@@ -327,110 +336,98 @@ export const images: Record<string, ImageAsset> = {
   },
   "siera-sticker-01": {
     "src": "/assets/siera-sticker-01.png",
-    "width": 768,
-    "height": 768,
+    "width": 496,
+    "height": 464,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-02": {
     "src": "/assets/siera-sticker-02.png",
-    "width": 768,
-    "height": 768,
+    "width": 496,
+    "height": 464,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-03": {
     "src": "/assets/siera-sticker-03.png",
-    "width": 768,
-    "height": 768,
+    "width": 461,
+    "height": 441,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-04": {
     "src": "/assets/siera-sticker-04.png",
-    "width": 768,
-    "height": 768,
+    "width": 478,
+    "height": 458,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-05": {
     "src": "/assets/siera-sticker-05.png",
-    "width": 768,
-    "height": 768,
+    "width": 466,
+    "height": 436,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-06": {
     "src": "/assets/siera-sticker-06.png",
-    "width": 768,
-    "height": 768,
+    "width": 537,
+    "height": 475,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-07": {
     "src": "/assets/siera-sticker-07.png",
-    "width": 768,
-    "height": 768,
+    "width": 527,
+    "height": 417,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-08": {
     "src": "/assets/siera-sticker-08.png",
-    "width": 768,
-    "height": 768,
+    "width": 533,
+    "height": 509,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-09": {
     "src": "/assets/siera-sticker-09.png",
-    "width": 768,
-    "height": 875,
+    "width": 532,
+    "height": 529,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-10": {
     "src": "/assets/siera-sticker-10.png",
-    "width": 768,
-    "height": 875,
+    "width": 523,
+    "height": 378,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-11": {
     "src": "/assets/siera-sticker-11.png",
-    "width": 768,
-    "height": 875,
+    "width": 507,
+    "height": 502,
     "widths": [
-      384,
-      768
+      384
     ]
   },
   "siera-sticker-12": {
     "src": "/assets/siera-sticker-12.png",
-    "width": 768,
-    "height": 875,
+    "width": 435,
+    "height": 431,
     "widths": [
-      384,
-      768
+      384
     ]
   }
 }

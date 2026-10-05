@@ -29,6 +29,7 @@ export const assets = {
   footerCharacter: image("siera-footer-character"),
   og: image("siera-og-image-1200x630"),
   favicon: image("siera-favicon"),
+  coin: image("siera-coin"),
   comics: Object.fromEntries(comicIds.map((id) => [id, image(`siera-comic-${id}`)])) as Record<(typeof comicIds)[number], ImageAsset>,
   memes: Object.fromEntries(packIds.map((id) => [id, image(`siera-meme-${id}`)])) as Record<(typeof packIds)[number], ImageAsset>,
   stickers: Object.fromEntries(packIds.map((id) => [id, image(`siera-sticker-${id}`)])) as Record<(typeof packIds)[number], ImageAsset>,

@@ -1,18 +1,18 @@
 import { assets } from "../config/assets.ts"
 
 const alts = [
-  "Circular sticker of SIERA's crowned head and blue visor.",
-  "Circular sticker close-up of the SIERA visor.",
-  "Circular sticker of SIERA pointing forward.",
-  "Circular sticker of the blue crystal in SIERA's hand.",
-  "Circular sticker of the full crowned SIERA figure.",
-  "Circular sticker of SIERA's royal suit and cape.",
-  "Circular sticker of SIERA's lower pose and gold trim.",
-  "Circular sticker of the official SIERA coin emblem.",
-  "Die-cut sticker of SIERA with a blue aura.",
-  "Die-cut sticker of SIERA with a gold aura.",
-  "Die-cut sticker of SIERA with a purple aura.",
-  "Die-cut sticker of SIERA with a cyan aura.",
+  "Full-body SIERA pointing forward, glowing crystal in the other hand.",
+  "Full-body SIERA mirrored, crystal and pointing hand swapped.",
+  "Full-body SIERA in a wider stance, cape spread, crystal raised.",
+  "Full-body SIERA standing with the crystal held up.",
+  "Full-body SIERA, a smaller pose of the crowned mascot with the crystal.",
+  "SIERA from the waist up, crystal ringed with light.",
+  "SIERA from the chest up, pointing, crystal beside the cape.",
+  "Close-up of SIERA pointing straight ahead.",
+  "Close-up of SIERA presenting the glowing crystal.",
+  "Close-up of SIERA's crowned face, visor, and pointing hand.",
+  "Circular coin reading Super Intelligence Era and $SIERA.",
+  "Circular $SIERA coin emblem.",
 ] as const
 
 export const stickers = alts.map((alt, index) => {
