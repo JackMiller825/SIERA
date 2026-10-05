@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { memes } from "../data/memes.ts"
-import { cn } from "../utils/cn.ts"
 import { largestVariant } from "../utils/images.ts"
 import { DownloadIcon, ShareIcon } from "./Icons.tsx"
 import { Lightbox } from "./Lightbox.tsx"
@@ -50,14 +49,15 @@ export function Memes() {
           {memes.map((meme, index) => (
             <article key={meme.id} className="group relative overflow-hidden rounded-2xl border border-cyan/25 bg-deep transition duration-300 hover:border-gold">
               <button type="button" className="block w-full" onClick={() => setOpen(index)} aria-label={`Open meme, ${meme.title}`}>
-                <div className={cn("relative overflow-hidden", meme.frame.split(" ")[0])}>
+                <div className="relative aspect-square overflow-hidden bg-navy">
                   <SmartImage
                     image={meme.image}
                     alt={meme.alt}
                     fill
+                    fit="contain"
                     maxWidth={960}
                     sizes="(min-width: 1100px) 24vw, 46vw"
-                    className={cn("transition duration-300 group-hover:scale-[1.04]", meme.frame.split(" ").slice(1).join(" "))}
+                    className="transition duration-300 group-hover:scale-[1.03]"
                   />
                 </div>
               </button>

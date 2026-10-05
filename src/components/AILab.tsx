@@ -23,7 +23,7 @@ export function AILab() {
           <div className="overflow-hidden rounded-3xl border border-cyan/20 bg-deep shadow-[0_0_36px_rgba(120,75,255,0.18)]">
             <SmartImage
               image={assets.aiLab}
-              alt="SIERA characters gathered along glowing stages inside a floating laboratory city."
+              alt="SIERA roadmap of the path from humanity through AI and AGI into the brighter era."
               fit="contain"
               sizes="(min-width: 1024px) 540px, 100vw"
             />

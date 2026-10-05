@@ -59,7 +59,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-evolution-human-ai-agi-si": {
     "src": "/assets/siera-evolution-human-ai-agi-si.jpg",
     "width": 1600,
-    "height": 756,
+    "height": 757,
     "widths": [
       640,
       1280,
@@ -117,7 +117,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-media-memes": {
     "src": "/assets/siera-media-memes.jpg",
     "width": 1200,
-    "height": 568,
+    "height": 567,
     "widths": [
       640,
       1200
@@ -126,7 +126,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-media-story": {
     "src": "/assets/siera-media-story.jpg",
     "width": 1200,
-    "height": 567,
+    "height": 568,
     "widths": [
       640,
       1200
@@ -220,7 +220,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-01": {
     "src": "/assets/siera-meme-01.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -229,7 +229,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-02": {
     "src": "/assets/siera-meme-02.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -238,7 +238,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-03": {
     "src": "/assets/siera-meme-03.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -247,7 +247,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-04": {
     "src": "/assets/siera-meme-04.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -256,7 +256,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-05": {
     "src": "/assets/siera-meme-05.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -265,7 +265,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-06": {
     "src": "/assets/siera-meme-06.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -274,7 +274,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-07": {
     "src": "/assets/siera-meme-07.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -283,7 +283,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-08": {
     "src": "/assets/siera-meme-08.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -292,7 +292,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-09": {
     "src": "/assets/siera-meme-09.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960
@@ -301,7 +301,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-10": {
     "src": "/assets/siera-meme-10.jpg",
     "width": 960,
-    "height": 320,
+    "height": 960,
     "widths": [
       480,
       960
@@ -319,7 +319,7 @@ export const images: Record<string, ImageAsset> = {
   "siera-meme-12": {
     "src": "/assets/siera-meme-12.jpg",
     "width": 960,
-    "height": 454,
+    "height": 960,
     "widths": [
       480,
       960

@@ -31,15 +31,14 @@ export function Evolution() {
         </p>
 
         <div className="relative mt-10 overflow-hidden rounded-3xl border border-cyan/20">
-          <div className="relative aspect-[16/8] md:aspect-[21/8]">
+          <div className="relative aspect-[21/10]">
             <SmartImage
               image={assets.evolution}
-              alt="Cinematic artwork of the fictional path from human, to AI, to AGI, to the crowned SIERA mascot."
+              alt="SIERA roadmap artwork: a human, AI, AGI, SI, and a brighter era across floating cities."
               fill
+              fit="contain"
               sizes="(min-width: 1024px) 1100px, 100vw"
-              className="object-[center_40%]"
             />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-navy via-transparent to-navy/20" />
           </div>
         </div>
 
