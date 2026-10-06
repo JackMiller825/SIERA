@@ -26,9 +26,6 @@ export function Evolution() {
     <Section id="evolution" className="overflow-hidden bg-deep/40">
       <div ref={ref} className="wrap">
         <SectionHeading id="evolution-title" eyebrow="THE SIERA NARRATIVE" title="THE EVOLUTION OF INTELLIGENCE" align="center" />
-        <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-relaxed text-ice/65">
-          A fictional story told inside the SIERA universe. This progression is world-building, not a scientific claim.
-        </p>
 
         <div className="relative mt-10 overflow-hidden rounded-3xl border border-cyan/20">
           <div className="relative aspect-[21/10]">

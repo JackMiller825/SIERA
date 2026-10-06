@@ -21,9 +21,6 @@ export function IntelligenceSlider() {
     <Section id="level" className="overflow-hidden bg-deep/35">
       <div className="wrap">
         <SectionHeading id="level-title" eyebrow="ENTERTAINMENT ONLY" title="CURRENT INTELLIGENCE LEVEL" align="center" />
-        <p className="mx-auto mt-4 max-w-xl text-center text-sm text-ice/65">
-          Drag the level for fun. No token, wallet, or permission slip is required.
-        </p>
 
         <div className="relative mx-auto mt-10 max-w-4xl overflow-hidden rounded-[2rem] border border-cyan/25 shadow-[0_0_40px_rgba(30,140,255,0.16)]">
           {environments.map((environment, index) => (

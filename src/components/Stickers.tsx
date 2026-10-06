@@ -1,7 +1,4 @@
-import { project } from "../config/project.ts"
 import { stickers } from "../data/stickers.ts"
-import { isLiveUrl } from "../utils/token.ts"
-import { Button } from "./Button.tsx"
 import { Section, SectionHeading } from "./Section.tsx"
 import { SmartImage } from "./SmartImage.tsx"
 
@@ -24,11 +21,6 @@ export function Stickers() {
               </div>
             </div>
           ))}
-        </div>
-        <div className="mt-8 text-center">
-          <Button href={project.telegramUrl} disabled={!isLiveUrl(project.telegramUrl)}>
-            GET THE TELEGRAM PACK
-          </Button>
         </div>
       </div>
     </Section>

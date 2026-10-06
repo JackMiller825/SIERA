@@ -1,14 +1,10 @@
 import { useState } from "react"
 import { project } from "../config/project.ts"
 import { cn } from "../utils/cn.ts"
-import { buyUrl, chartUrl, contractUrl, displayStatus, isContractAddress } from "../utils/token.ts"
-import { Button } from "./Button.tsx"
+import { displayStatus, isContractAddress } from "../utils/token.ts"
 import { Section, SectionHeading } from "./Section.tsx"
 
 const fields = [
-  { label: "TOKEN NAME", value: project.name },
-  { label: "SYMBOL", value: project.ticker },
-  { label: "CHAIN", value: project.chain },
   { label: "CONTRACT ADDRESS", value: displayStatus(project.contractAddress), copy: true },
   { label: "TOTAL SUPPLY", value: displayStatus(project.totalSupply) },
   { label: "BUY TAX", value: displayStatus(project.buyTax) },
@@ -31,7 +27,7 @@ export function TokenInfo() {
   return (
     <Section id="token">
       <div className="wrap">
-        <SectionHeading id="token-title" eyebrow={project.chain.toUpperCase()} title={project.ticker}>
+        <SectionHeading id="token-title" eyebrow={project.chain.toUpperCase()} title="TOKENOMICS">
           <p className="font-display text-sm tracking-[0.16em] text-gold-bright">THE TOKEN OF THE SUPER INTELLIGENCE ERA</p>
         </SectionHeading>
 
@@ -50,20 +46,6 @@ export function TokenInfo() {
             </div>
           ))}
         </dl>
-
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Button href={buyUrl()} disabled={!buyUrl()}>
-            BUY ON UNISWAP
-          </Button>
-          <Button href={contractUrl()} variant="ghost" disabled={!contractUrl()}>
-            VIEW CONTRACT
-          </Button>
-          <Button href={chartUrl()} variant="ghost" disabled={!chartUrl()}>
-            VIEW CHART
-          </Button>
-        </div>
-
-        <p className="mt-8 max-w-3xl text-sm leading-relaxed text-ice/70">{project.disclaimer}</p>
       </div>
     </Section>
   )
