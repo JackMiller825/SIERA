@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siera.world/sitemap.xml
